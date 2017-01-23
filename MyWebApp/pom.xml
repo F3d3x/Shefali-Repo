@@ -29,7 +29,13 @@
     <finalName>MyWebApp</finalName>
 
   </build>
-  
+  <distributionManagement>
+    <snapshotRepository>
+         <id>Demo_Fedex_Snapshot</id>
+         <name>Demo_Fedex_Snapshot</name>
+         <url>http://localhost:8081/repository/Demo_Fedex_Snapshot/</url>
+    </snapshotRepository>
+</distributionManagement>
   
  
 </project>
